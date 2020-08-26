@@ -1,0 +1,112 @@
+#title {
+  color: white;
+  padding: 0 auto 0;
+  height: 100vh;
+}
+
+.row {
+  margin-top: 5.75rem;
+}
+
+body {
+  font-family: "Montserrat-Light" sans-serif;
+  background-color: black !important;
+}
+
+.navbar {
+  border-bottom-style: solid;
+  border-width: 0.1rem 0;
+  border-color: gold;
+  height: 5rem;
+  background-color: black;
+}
+
+section {
+  border-bottom-color: gold;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1rem 0;
+}
+
+.navbar-brand {
+  font-family: "Sacramento", cursive;
+  color: gold !important;
+  font-weight: bolder;
+  font-size: 4rem;
+  margin-left: 5rem;
+  padding: 0 0.1825rem;
+}
+
+.nav-item {
+  padding: 0 0.1825rem;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light", sans-serif;
+  font-weight: 1.2rem;
+  color: rgb(182, 166, 166) !important;
+}
+
+.nav-list :hover {
+  color: gold !important;
+  cursor: pointer !important;
+  transform: scale(1.2);
+}
+
+.mc {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.container-fluid {
+  padding: 1.875rem 1.875rem 2.5rem;
+}
+
+.intro-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem !important;
+  line-height: 1.5;
+  padding-top: 0.625rem;
+  padding-bottom: 0.25rem;
+  color: white;
+  margin-left: 2.625rem;
+  justify-content: center !important;
+}
+
+p {
+  margin-left: 2.625rem;
+  font-size: 1.3rem;
+}
+
+span {
+  color: gold;
+}
+
+.buttons {
+  color: gold !important;
+  margin-left: 2.5rem;
+}
+
+.intro-btn {
+  margin: 5% 3% 5% 0;
+  color: gold !important;
+}
+
+.col-lg-6 {
+  position: relative;
+}
+
+.introduction {
+  /* margin-top: 0.8rem !important; */
+  margin-left: 2.5rem;
+  line-height: 2;
+}
+
+.food {
+  margin: 2rem auto 15rem 16rem !important;
+  width: 25rem;
+  height: 25rem;
+  position: relative;
+  border-radius: 40%;
+  right: 6rem;
+  z-index: 4;
+}

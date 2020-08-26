@@ -1,0 +1,157 @@
+#title {
+  /* background-color: black; */
+  color: black;
+  padding: 0 auto 0;
+  height: 100vh;
+}
+
+#title::after {
+  content: "";
+  background: url("../images/wooden-floor.jpg");
+  background-color: black;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.row {
+  margin-top: 4.25rem;
+}
+
+body {
+  font-family: "Montserrat-Light" sans-serif;
+  background-color: black;
+  /* background-image: url("../images/wooden-floor.jpg");
+  background-image: linear-gradient(0, 0, 0);
+  opacity: 0.5;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  position: relative;
+}
+
+/* .navbar {
+  background-color: gold;
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: black;
+  height: 5rem;
+  padding: 0 0 3.125rem !important;
+  margin: 1.875rem 3.125rem 5.625rem;
+} */
+
+.navbar {
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: gold;
+  height: 5rem;
+  background-color: black;
+}
+
+.navbar-brand {
+  font-family: "Sacramento", cursive;
+  color: gold !important;
+  font-weight: bolder;
+  font-size: 4rem;
+  margin-left: 5rem;
+  padding: 0 0.1825rem;
+  margin-top: 1rem;
+}
+
+.nav-item {
+  padding: 0 0.1825rem;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light", sans-serif;
+  font-weight: 1.2rem;
+  color: rgb(182, 166, 166) !important;
+}
+
+.nav-list :hover {
+  color: gold !important;
+  cursor: pointer !important;
+  transform: scale(1.2);
+}
+
+.mc {
+  font-family: "Montserrat", sans-serif;
+  color: gold;
+}
+
+.container-fluid {
+  padding: 1.875rem 1.875rem 2.5rem;
+}
+
+.intro-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem !important;
+  line-height: 1.5;
+  padding-top: 0.625rem;
+  padding-bottom: 0.25rem;
+  color: black;
+  margin-left: 2.625rem;
+  justify-content: center !important;
+}
+
+p {
+  margin-left: 2.625rem;
+  font-size: 1.3rem;
+}
+
+span {
+  color: gold;
+}
+
+.buttons {
+  color: black !important;
+  margin-left: 2.5rem;
+}
+
+.intro-btn {
+  margin: 5% 3% 5% 0;
+  color: gold !important;
+}
+/* 
+img {
+  position: relative;
+  bottom: 0.9375rem;
+  width: 21.875rem;
+  height: 21.875rem;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+} */
+
+.food {
+  margin: 2rem auto 15rem 16rem !important;
+  width: 25rem;
+  height: 25rem;
+  position: relative;
+  right: 6rem;
+  z-index: 4;
+  /* bottom: 5rem; */
+}
+
+.col-lg-6 {
+  position: relative;
+}
+
+/* .food {
+  position: absolute;
+  top: 0;
+  right: 2%;
+  width: 21.875rem;
+  height: 21.875rem;
+} */
+
+.introduction {
+  /* margin-top: 0.8rem !important; */
+  margin-left: 2.5rem;
+  line-height: 2;
+}
